@@ -13,6 +13,7 @@ options, as they keep breaking it all the time.
 - **TradeTitan** is a reseller who wants to earn a commission on selling
 popular phones.
 
+```
 AS A <User_Type> (Who?)
 I WANT TO <Action> (What?)
 SO THAT <Goal> (Why?)
