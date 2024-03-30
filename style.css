@@ -1,4 +1,4 @@
-body {
-    color: white;
-    background-color: black;
+.bg-highlighted-white-text  {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3rem;
 }
