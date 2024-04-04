@@ -1,4 +1,62 @@
+.html {
+    font-size: 20px;
+}
+
+.body {
+    min-width: 400px;
+}
+
+
 .bg-highlighted-white-text  {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 3rem;
+}
+
+/* phone models section */
+.phone-models-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.phone-model {
+    margin: 1rem 2rem;
+}
+
+.tagline-container {
+    text-align: center;
+    margin: 6rem auto;
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.feature-box {
+    padding: 2rem;
+    border: 2px black;
+    margin: 2rem;
+    box-sizing: content-box;
+    width: calc(90%-10rem);
+    text-align: center;
+    min-width: 200px;
+    border-radius: 35px;
+}
+
+.feature-box:hover {
+    background-color: lightgray;
+}
+
+.feature-image {
+    width: 80%;
+    max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .feature-box {
+        width: calc(50%-10rem);
+    }
 }
