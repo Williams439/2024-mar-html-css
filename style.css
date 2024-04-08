@@ -6,7 +6,7 @@
     min-width: 400px;
 }
 
-
+/*main banner carousel*/
 .bg-highlighted-white-text  {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 3rem;
@@ -55,10 +55,10 @@
 
 .feature-box {
     padding: 2rem;
-    border: 2px black;
+    border: 2px solid black;
     margin: 2rem;
     box-sizing: content-box;
-    width: calc(90%-10rem);
+    width: calc(90% - 10rem);
     text-align: center;
     min-width: 200px;
     border-radius: 35px;
@@ -75,7 +75,7 @@
 
 @media screen and (min-width: 768px) {
     .feature-box {
-        width: calc(50%-10rem);
+        width: calc(50% - 10rem);
     }
 }
 
